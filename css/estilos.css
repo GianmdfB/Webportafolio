@@ -1,0 +1,24 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #C58940;
+    --primario:#FAF8F1;
+    --secundario:#E5BA73;
+    --Beige:#FAEAB1;
+}
+html{
+    font-size: center;
+    font-family: 'Alegreya', serif;
+}
+
+body{
+    font-size: 62.5%;
+}
+.titulo{
+    text-align: center;
+    font-size: 5.6rem;
+    color: var(--oscuro);
+}
+.titulo span{
+    font-size: 2rem;
+    color:var(--secundario)
+}
