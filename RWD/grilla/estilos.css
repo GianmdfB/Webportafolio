@@ -38,32 +38,12 @@ h1 {
     font-weight: bold;
     text-transform: uppercase;
 }
-
-@media (min-width:480px){
-    body{
-        background-color: brown;
+    .dos_columnas{
+        display: flex;
+        justify-content: space-between;
+        
     }
-}
 
-@media (min-width:768px){
-    body{
-        background-color: rgb(42, 95, 165);
+    .entrada{
+        flex: 0 0 calc(50%-1rem);
     }
-}
-
-
-.entrada img{
-    display: none;
-}
-
-@media (min-width:1140px){
-    body{
-        background-color: rgb(138, 36, 92);
-    }
-}
-
-@media (min-width:1400px){
-    body{
-        background-color: rgb(190, 189, 115);
-    }
-}
